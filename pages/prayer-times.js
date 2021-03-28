@@ -82,7 +82,7 @@ function ResponsiveDrawer(props) {
   const drawer = (
     <>
     <Head>
-      <script src="/getPray.js"></script>
+      <script src="/getPray.min.js"></script>
     </Head>
     <div>
       <div className={classes.toolbar} />
