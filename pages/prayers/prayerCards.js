@@ -5,7 +5,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import styles from '../main.module.css'
+import styles from '../main.module.css';
 
 const useStyles = makeStyles({
   root: {
@@ -24,8 +24,11 @@ export default function PrayerCard() {
   <div className={styles.flexbox}>
     <Card className={classes.root}>
       <CardActionArea>
-        <CardMedia
+      <CardMedia
           className={classes.media}
+          component="img"
+          alt="Fajr"
+          height="140"
           image="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
           title="Fajr"
         />
