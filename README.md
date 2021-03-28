@@ -1,4 +1,4 @@
-# islamic-tools-web
+<p align="center">[IslamicTools Web](https://web.sego.app/ "IslamicTools Web")</p>
 
 ## Get Started
 
