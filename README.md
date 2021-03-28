@@ -1,4 +1,4 @@
-<p align="center">[IslamicTools Web](https://web.sego.app/ "IslamicTools Web")</p>
+<h1 align="center">[IslamicTools Web](https://web.sego.app/)</h1>
 
 ## Get Started
 
