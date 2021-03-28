@@ -1,4 +1,4 @@
-<h1 align="center">[IslamicTools Web](https://web.sego.app/)</h1>
+<h1 align="center"><a href="https://web.sego.app/">IslamicTools Web</a></h1>
 
 ## Get Started
 
