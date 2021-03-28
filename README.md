@@ -1,4 +1,4 @@
-# islamic-tools-web
+<h1 align="center"><a href="https://web.sego.app/">IslamicTools Web</a></h1>
 
 ## Get Started
 
