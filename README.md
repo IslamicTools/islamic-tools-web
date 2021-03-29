@@ -7,6 +7,5 @@
 
 ## Todo
 
-1. improve code
-2. use fetch instead of xmlnewrequest
-3. make my own api
+1. add prayer times options
+2. improve code
