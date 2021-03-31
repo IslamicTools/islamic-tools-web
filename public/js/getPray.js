@@ -7,7 +7,7 @@ axios.get(`https://dev.virtualearth.net/REST/v1/Elevation/List?points=${latitude
     let elevation = elevResponse.data.resourceSets[0].resources[0].elevations[0]
     console.log(elevResponse)
     // Get Prayer times
-    axios.get(`https://api.pray.zone/v2/times/today.json?longitude=${longitude}&latitude=${latitude}&elevation=${elevation}`)
+    axios.get(`https://api.pray.zone/v2/times/today.json?longitude=${longitude}&latitude=${latitude}&elevation=${elevation}&timeformat=1`)
   .then(function (response) {
     // Display Prayer times
     console.log(response);
@@ -47,7 +47,7 @@ function getPrayTimesIP() {
     let ip = data.match(ipRegex)[0];
 
 // Make a request to Prayer times API
-axios.get(`https://api.pray.zone/v2/times/today.json?ip=${ip}`)
+axios.get(`https://api.pray.zone/v2/times/today.json?ip=${ip}&timeformat=1`)
   .then(function (response) {
     // handle success
     console.log(response);
