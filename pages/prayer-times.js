@@ -82,8 +82,9 @@ function ResponsiveDrawer(props) {
   const drawer = (
     <>
     <Head>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
       <script src="/js/getPray.min.js"></script>
+      <title>IslamicTools | Prayer Times</title>
     </Head>
     <div>
       <div className={classes.toolbar} />
@@ -95,19 +96,19 @@ function ResponsiveDrawer(props) {
     <Link href="https://github.com/IslamicTools/islamic-tools-web" class="material-list-item"><ListItem button>
         <ListItemText primary="Contribute" />
     </ListItem></Link>
-    <Link href="/about-us" class="material-list-item"><ListItem button>
+    {/* <Link href="/about-us" class="material-list-item"><ListItem button>
         <ListItemText primary="About Us" />
     </ListItem></Link>
     <Link href="/contact" class="material-list-item"><ListItem button>
         <ListItemText primary="Contact" />
-    </ListItem></Link>
+    </ListItem></Link> */}
       </List>
       <Divider />
       <List>
       <Link href="/prayer-times" class="material-list-item"><ListItem button>
         <ListItemText primary="Prayer Times" />
     </ListItem></Link>
-    <Link href="/hijri" class="material-list-item"><ListItem button>
+    {/* <Link href="/hijri" class="material-list-item"><ListItem button>
         <ListItemText primary="Hijri Calendar" />
     </ListItem></Link>
     <Link href="/holy-days" class="material-list-item"><ListItem button>
@@ -115,7 +116,7 @@ function ResponsiveDrawer(props) {
     </ListItem></Link>
     <Link href="/quran" class="material-list-item"><ListItem button>
         <ListItemText primary="Quran" />
-    </ListItem></Link>
+    </ListItem></Link> */}
       </List>
     </div></>
   );
@@ -123,7 +124,7 @@ function ResponsiveDrawer(props) {
   const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
-<>
+    <>
     <div className={classes.root}>
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>

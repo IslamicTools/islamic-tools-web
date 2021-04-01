@@ -14,6 +14,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Link from 'next/link';
+import Head from 'next/head'
 
 const drawerWidth = 240;
 
@@ -61,6 +62,10 @@ function ResponsiveDrawer(props) {
   };
 
   const drawer = (
+    <>
+      <Head>
+        <title>IslamicTools</title>
+      </Head>
     <div>
       <div className={classes.toolbar} />
       <Divider />
@@ -94,6 +99,7 @@ function ResponsiveDrawer(props) {
     </ListItem></Link>
       </List>
     </div>
+  </>
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
