@@ -20,7 +20,8 @@ export default function PrayerCard() {
   const classes = useStyles();
 
   return (
-    <>
+  
+  <div>
     <Card className={classes.root}>
       <CardActionArea>
       <CardMedia
@@ -98,6 +99,6 @@ export default function PrayerCard() {
         </CardContent>
       </CardActionArea>
     </Card>
-    </>
+    </div>
   );
 }
