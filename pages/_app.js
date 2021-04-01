@@ -22,7 +22,8 @@ export default function MyApp(props) {
       <Head>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <title>IslamicTools</title>
-        <meta name="Description" content="IslamicTools is the Swiss Army Knife of essential Islamic Tools."></meta>
+        <meta name="Description" content="This community project has all the tools you need for your daily Muslim life."></meta>
+        <link rel="canonical" href="https://web.sego.app/"/>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
