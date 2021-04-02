@@ -11,8 +11,6 @@ export default class MyDocument extends Document {
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" media="print" onload="this.media='all'"/>
-          {/* Clarity tracking code for https://web.sego.app/ */}
-          <script src="/js/clarity/clarity.js" async></script>
         </Head>
         <body>
           <Main />

@@ -26,10 +26,10 @@ export default function PrayerCard() {
       <CardActionArea>
       <CardMedia
           className={classes.media}
-          component="img"
+          component='img'
           alt="Fajr"
           height="140"
-          image="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+          image="/img/fajr-dawn.webp"
           title="Fajr"
         />
         <CardContent>
@@ -44,7 +44,7 @@ export default function PrayerCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://images.unsplash.com/photo-1584887546771-fe346e85c192?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=414&q=80"
+          image="/img/dhuhr-noon.webp"
           title="Dhuhr"
         />
         <CardContent>
@@ -59,7 +59,7 @@ export default function PrayerCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://images.unsplash.com/photo-1610060588236-a6c254711e00?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80"
+          image="/img/asr-afternoon.webp"
           title="Asr"
         />
         <CardContent>
@@ -74,7 +74,7 @@ export default function PrayerCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+          image="/img/maghrib-sunset.webp"
           title="Maghrib"
         />
         <CardContent>
@@ -89,7 +89,7 @@ export default function PrayerCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://images.unsplash.com/photo-1507502707541-f369a3b18502?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+          image="/img/isha-night.webp"
           title="Isha"
         />
         <CardContent>
