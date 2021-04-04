@@ -65,7 +65,7 @@ function ResponsiveDrawer(props) {
     <>
       <Head>
         <title>IslamicTools Web</title>
-        <link rel="canonical" href="https://web.sego.app/" />
+        <link rel="canonical" href="https://web.sego.app/contact" />
       </Head>
     <div>
       <div className={classes.toolbar} />
@@ -157,10 +157,7 @@ function ResponsiveDrawer(props) {
       </nav>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-            <Typography>IslamicTools Web v2
-            </Typography>
-            <Typography>Under construction</Typography>
-            <Typography>Only working page is Prayer Times</Typography>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEKxqgd7BI7--WDBf-rbhtERnccmesCh_odCuN0y3f0uOROQ/viewform?embedded=true" width="640" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </main>
     </div>
   );

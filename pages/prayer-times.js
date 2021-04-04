@@ -84,7 +84,8 @@ function ResponsiveDrawer(props) {
     <Head>
       <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
       <script src="/js/getPray.min.js"></script>
-      <title>IslamicTools | Prayer Times</title>
+      <link rel="canonical" href="https://web.sego.app/prayer-times/" />
+      <title>IslamicTools Web | Prayer Times</title>
     </Head>
     <div>
       <div className={classes.toolbar} />
@@ -98,10 +99,10 @@ function ResponsiveDrawer(props) {
     </ListItem></Link>
     {/* <Link href="/about-us" class="material-list-item"><ListItem button>
         <ListItemText primary="About Us" />
-    </ListItem></Link>
+    </ListItem></Link> */}
     <Link href="/contact" class="material-list-item"><ListItem button>
         <ListItemText primary="Contact" />
-    </ListItem></Link> */}
+    </ListItem></Link>
       </List>
       <Divider />
       <List>
@@ -139,7 +140,7 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            IslamicTools
+            IslamicTools Web
           </Typography>
         </Toolbar>
       </AppBar>
