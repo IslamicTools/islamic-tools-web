@@ -5,6 +5,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
 import styles from './main.module.css';
+import '../public/css/normalize.min.css';
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
@@ -23,6 +24,7 @@ export default function MyApp(props) {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta name="Description" content="This community project has all the tools you need for your daily Muslim life."></meta>
         <link rel="canonical" href="https://web.sego.app/"/>
+        <link rel="apple-touch-icon" href="/islamictools-logo.png" />
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
