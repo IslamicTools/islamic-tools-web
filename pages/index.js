@@ -66,6 +66,7 @@ function ResponsiveDrawer(props) {
       <Head>
         <title>IslamicTools Web</title>
         <link rel="canonical" href="https://web.sego.app/" />
+        <meta name="cf-2fa-verify" content="b7bf0bad5aadf7c" />
       </Head>
     <div>
       <div className={classes.toolbar} />
