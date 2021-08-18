@@ -159,8 +159,9 @@ function ResponsiveDrawer(props) {
         <div className={classes.toolbar} />
             <Typography>IslamicTools Web v2
             </Typography>
-            <Typography>Under construction</Typography>
-            <Typography>Only working page is Prayer Times</Typography>
+            <Typography>A new beginning...</Typography>
+            <Typography>IslamicTools Web is getting re-written from scratch</Typography>
+            <Typography>Beta website coming soon</Typography>
       </main>
     </div>
   );
